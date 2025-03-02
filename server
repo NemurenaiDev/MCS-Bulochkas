@@ -13,7 +13,8 @@ echo "Starting the server..."
 java -Xms2G -Xmx8G -jar ./server.jar nogui
 
 git add .
-git commit
+date_end=$(date '+%Y.%m.%d--%H:%M:%S')
+git commit -m "$date_start---$date_end"
 
 echo ""
 echo ""

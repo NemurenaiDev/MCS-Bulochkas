@@ -26,7 +26,7 @@ echo:
 git status
 
 echo:
-git commit -m "%date_start%-%time_start%--%date%-%time%"
+git commit -m "%date_start%-%time_start%---%date%-%time%"
 
 echo:
 echo:
